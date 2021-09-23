@@ -1,45 +1,32 @@
 # Bank-Note-Authentificaton-
 
-![alt text](https://fypidea.com/wp-content/uploads/2020/06/Potterytableware-tiles..png)
-![Alt text](https://drive.google.com/file/d/1c86Yhg3UnvGLm4vHC1tEA0iv733IE7lb/view?usp=sharing")
-![Alt text](/relative/path/to/streamlit.png?raw=true "Optional Title")
 
-
-- This repository represents **" Face mask detection using MobileNetV2 "**.
-- With the help of this project we can detect if a person is wearing a mask or not based on the **Face Detection**.
   
 ## 📝 Description
-- In this project we have used **MobileNetV2** and **Face Detection model** for mask detection .
+- Using Randem Forest Classifier for building the  model then creating  the APi and testing it in Postman 
+- Deploying the Model Using Flask (Flasgger)
+- Writing and building the model on a docker container 
+- Deploying the  model using StreamLit library
 
 ## ⏳ Dataset
-- Download the dataset for custom training and place those two folders  in a folder named **"dataset"**
-- https://drive.google.com/drive/folders/1WCxe1EuxLo6qyGVpupcEMTgN83xpgHM_ 
+-  Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool were used to extract features from images."
+- Dataset Link: https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data
 
 ## :desktop_computer:	Installation
 
 ### :Requirements
-* Python 3.6+
-* tensorflow>=1.15.2
-* keras==2.3.1
-* imutils==0.5.3
-* numpy==1.18.2
-* opencv-python==4.2.0.*
-* matplotlib==3.2.1
-* scipy==1.4.1
+* Flask==1.1.1
+* gunicorn==19.9.0
+* itsdangerous==1.1.0
+* Jinja2==2.10.1
+* MarkupSafe==1.1.1
+* Werkzeug==0.15.5
+* numpy>=1.9.2
+* scipy>=0.15.1
+* scikit-learn==0.22.1
+* matplotlib>=1.4.3
+* pandas>=0.19
+* flasgger==0.9.4
+* streamlit
 
-## : Setup the environment
-1. Create a new virtual environment 
-2. Activate the new environment
-3. Donwlnload the file requirement.txt  
-4. Install the requirement 
-```bash
-$ pip install -r requirements.txt 
-
-```
-## 🎯 Inference demo
- Testing in  **Real time ** with the pc camera   :-
-```bash
-$ python detect_mask_video.py
-
-```
 
