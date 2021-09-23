@@ -1,7 +1,7 @@
 # Bank-Note-Authentificaton-
 
 ![alt text](https://fypidea.com/wp-content/uploads/2020/06/Potterytableware-tiles..png)
-![Alt text](C:/Users/YURI/Desktop/D.S/Youtube/Mywork/New folder/streamlit.png?raw=true "Optional Title")
+![Alt text](https://drive.google.com/file/d/1c86Yhg3UnvGLm4vHC1tEA0iv733IE7lb/view?usp=sharing")
 ![Alt text](/relative/path/to/streamlit.png?raw=true "Optional Title")
 
 
